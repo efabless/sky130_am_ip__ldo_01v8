@@ -6,7 +6,6 @@ ngspice/*
 netlist/*
 spice/*
 plots/*
-xschem/xschemrc
 xschem/*.spice
 mag/*.ext
 mag/*.res.ext
