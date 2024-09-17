@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1721052427
+timestamp 1725793971
 << dnwell >>
 rect 9664 4112 28180 6613
 rect 4523 -10546 28180 4112
@@ -5952,11 +5952,11 @@ timestamp 1717294357
 transform 1 0 5888 0 1 -6196
 box -308 -397 308 397
 use sky130_fd_sc_hvl__lsbuflv2hv_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hvl/mag
-timestamp 1715205430
+timestamp 1723858470
 transform -1 0 6586 0 -1 6296
 box -66 -43 2178 1671
 use sky130_fd_sc_hvl__lsbuflv2hv_1  x2
-timestamp 1715205430
+timestamp 1723858470
 transform -1 0 8698 0 -1 6296
 box -66 -43 2178 1671
 use sky130_fd_pr__cap_mim_m3_1_MRZGNS  XC1 paramcells
@@ -6169,10 +6169,6 @@ flabel metal2 8169 6695 8369 6895 0 FreeSans 256 0 0 0 SEL_EXT
 port 5 nsew
 flabel metal2 6055 6695 6255 6895 0 FreeSans 256 0 0 0 ENA
 port 3 nsew
-flabel metal2 4899 6695 5099 6895 0 FreeSans 256 0 0 0 DVDD
-port 6 nsew
-flabel metal2 7058 6693 7258 6893 0 FreeSans 256 0 0 0 DVSS
-port 7 nsew
 flabel metal2 8307 -9425 8307 -9425 0 FreeSans 400 0 0 0 nena
 flabel metal1 6161 -8950 6161 -8950 0 FreeSans 400 90 0 0 sel_ext_3v3
 flabel metal1 5737 -8932 5737 -8932 0 FreeSans 400 90 0 0 ena_3v3

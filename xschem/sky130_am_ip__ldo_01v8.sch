@@ -401,10 +401,6 @@ N 860 -2130 960 -2130 {
 lab=ena_3v3}
 N 860 -2050 960 -2050 {
 lab=sel_ext_3v3}
-N 640 -1990 700 -1990 {
-lab=DVDD}
-N 640 -1950 700 -1950 {
-lab=DVSS}
 C {devices/ipin.sym} 640 -2130 0 0 {name=p49 lab=ENA}
 C {devices/ipin.sym} 640 -2210 0 0 {name=p35 lab=AVDD}
 C {devices/ipin.sym} 640 -2170 0 0 {name=p36 lab=AVSS}
@@ -1055,12 +1051,8 @@ C {devices/lab_pin.sym} 3610 -1630 0 0 {name=p115 sig_type=std_logic lab=NENA}
 C {devices/lab_pin.sym} 3650 -1600 3 0 {name=p116 sig_type=std_logic lab=VDD_START}
 C {devices/lab_pin.sym} 1290 -1540 2 0 {name=p117 sig_type=std_logic lab=VDD_START}
 C {lsbuflv2hv_1.sym} 820 -2130 0 0 {name=x1 LVPWR=DVDD VGND=DVSS VNB=DVSS VPB=AVDD VPWR=AVDD prefix=sky130_fd_sc_hvl__ }
-C {devices/ipin.sym} 640 -1990 0 0 {name=p5 lab=DVDD}
-C {devices/ipin.sym} 640 -1950 0 0 {name=p7 lab=DVSS}
 C {devices/lab_pin.sym} 960 -2130 0 1 {name=p8 sig_type=std_logic lab=ena_3v3}
 C {devices/lab_pin.sym} 960 -2050 0 1 {name=p9 sig_type=std_logic lab=sel_ext_3v3}
 C {lsbuflv2hv_1.sym} 820 -2050 0 0 {name=x2 LVPWR=DVDD VGND=DVSS VNB=DVSS VPB=AVDD VPWR=AVDD prefix=sky130_fd_sc_hvl__ }
 C {devices/lab_pin.sym} 3170 -1630 0 0 {name=p13 sig_type=std_logic lab=ena_3v3}
 C {devices/lab_pin.sym} 3390 -1630 0 0 {name=p14 sig_type=std_logic lab=ena_3v3}
-C {devices/lab_pin.sym} 700 -1990 0 1 {name=p18 sig_type=std_logic lab=DVDD}
-C {devices/lab_pin.sym} 700 -1950 0 1 {name=p19 sig_type=std_logic lab=DVSS}
